@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <locale.h>
 
 int main(   ) {
-    printf("Ol√°, Mundo");
+    setlocale(LC_ALL, "Portuguese");
+    printf("Ol·, Mundo");
+    printf("\nVamos commitar!");
     return 0;
     system("pause");
-    printf("\nVamos commitar!");
+    
 }

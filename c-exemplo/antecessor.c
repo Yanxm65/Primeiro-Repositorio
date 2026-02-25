@@ -11,3 +11,4 @@ int main () {
     printf("O posterior é: %d\n", num + 1);
     return 0;
 }
+

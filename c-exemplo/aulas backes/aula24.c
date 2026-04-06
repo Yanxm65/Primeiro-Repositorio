@@ -8,7 +8,7 @@ int main() {
     inicio:
     if (i<5)
     {
-        printf("NÃºmero: $d\n", i);
+        printf("Número: %d\n", i);
         i++;
         goto inicio;
     }
